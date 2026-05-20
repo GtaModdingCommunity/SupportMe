@@ -6,6 +6,7 @@
 <title>GTA Modding Community</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -28,7 +29,7 @@ max-width:540px;
 text-align:center;
 }
 
-/* Logo */
+/* LOGO */
 
 .profile-section{
 display:flex;
@@ -42,7 +43,7 @@ height:130px;
 border-radius:50%;
 background:radial-gradient(circle,#ff0000 0%,#000000 80%);
 border:2px solid #ff0000;
-box-shadow:0 0 35px rgba(255,0,0,0.6);
+box-shadow:0 0 40px rgba(255,0,0,.7);
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -50,7 +51,7 @@ align-items:center;
 }
 
 .logo-text-top{
-font-size:22px;
+font-size:23px;
 font-weight:900;
 }
 
@@ -58,7 +59,7 @@ font-weight:900;
 font-size:11px;
 font-weight:800;
 background:#ff0000;
-padding:2px 7px;
+padding:2px 8px;
 margin:4px 0;
 }
 
@@ -68,11 +69,11 @@ font-weight:700;
 color:#ddd;
 }
 
-/* Header */
+/* HEADER */
 
 h1{
 font-size:30px;
-margin-bottom:10px;
+margin-bottom:12px;
 }
 
 .tags{
@@ -89,16 +90,15 @@ margin-bottom:25px;
 font-size:15px;
 line-height:1.7;
 color:#d4d4d8;
-margin-bottom:25px;
+margin-bottom:24px;
 }
 
 .notice{
 font-size:14px;
 margin-bottom:28px;
-color:#f5f5f5;
 }
 
-/* Cards */
+/* CARDS */
 
 .links-grid{
 display:flex;
@@ -109,41 +109,46 @@ gap:16px;
 .card{
 display:flex;
 align-items:center;
+background:#09090b;
+border-radius:22px;
+padding:18px;
 text-decoration:none;
 color:#fff;
-padding:18px;
-border-radius:22px;
 transition:.2s;
-background:#09090b;
 }
 
 .card:hover{
 transform:scale(1.02);
+background:#121214;
 }
 
 .card-crypto{
 border:1.5px solid #00cc83;
+box-shadow:0 0 12px rgba(0,204,131,.15);
 }
 
 .card-binance{
 border:1.5px solid #f3ba2f;
+box-shadow:0 0 12px rgba(243,186,47,.15);
 }
 
 .card-payoneer{
 border:1.5px solid #ff4800;
+box-shadow:0 0 12px rgba(255,72,0,.15);
 }
 
 .card-ads{
 border:1.5px solid #6366f1;
+box-shadow:0 0 12px rgba(99,102,241,.15);
 }
 
 .icon-box{
-width:48px;
-height:48px;
+width:50px;
+height:50px;
 border-radius:50%;
 display:flex;
-justify-content:center;
 align-items:center;
+justify-content:center;
 margin-right:18px;
 flex-shrink:0;
 }
@@ -164,19 +169,14 @@ background:#fff;
 background:#6366f1;
 }
 
-.icon-box svg{
+.icon-box img{
 width:24px;
 height:24px;
-fill:#fff;
-}
-
-.bg-binance svg{
-fill:#000;
 }
 
 .card-details{
-text-align:left;
 flex-grow:1;
+text-align:left;
 }
 
 .main-title{
@@ -186,18 +186,18 @@ font-weight:600;
 
 .sub-title{
 font-size:13px;
-margin-top:4px;
 color:#9ca3af;
+margin-top:4px;
 word-break:break-all;
 }
 
 .badge{
 background:rgba(16,185,129,.15);
 color:#10b981;
-padding:2px 6px;
-border-radius:4px;
 font-size:9px;
 font-weight:700;
+padding:2px 6px;
+border-radius:4px;
 margin-left:8px;
 }
 
@@ -215,7 +215,7 @@ color:#00cc83;
 margin-left:10px;
 }
 
-/* Footer */
+/* FOOTER */
 
 .footer{
 margin-top:30px;
@@ -224,10 +224,10 @@ color:#a1a1aa;
 }
 
 .socials{
-margin-top:20px;
 display:flex;
 justify-content:center;
 gap:18px;
+margin-top:20px;
 }
 
 .social-link{
@@ -240,13 +240,12 @@ display:flex;
 justify-content:center;
 align-items:center;
 transition:.2s;
-text-decoration:none;
 }
 
-.social-link svg{
-width:18px;
-height:18px;
-fill:#fff;
+.social-link img{
+width:20px;
+height:20px;
+filter:invert(1);
 }
 
 .social-youtube:hover{
@@ -268,6 +267,7 @@ border-color:#25d366;
 background:#ea4335;
 border-color:#ea4335;
 }
+
 </style>
 </head>
 
@@ -275,13 +275,23 @@ border-color:#ea4335;
 
 <div class="main-container">
 
+<!-- LOGO -->
+
 <div class="profile-section">
+
 <div class="logo-circle">
+
 <div class="logo-text-top">GTA</div>
+
 <div class="logo-text-mid">MODDING</div>
+
 <div class="logo-text-bot">COMMUNITY</div>
+
 </div>
+
 </div>
+
+<!-- HEADER -->
 
 <h1>GTA Modding Community</h1>
 
@@ -298,6 +308,8 @@ Your support keeps this community alive ❤️
 ⭐ Most users support via Binance (Fast & Easy) ⚡
 </div>
 
+<!-- CARDS -->
+
 <div class="links-grid">
 
 <!-- TRC20 -->
@@ -306,13 +318,13 @@ Your support keeps this community alive ❤️
 
 <div class="icon-box bg-crypto">
 
-<svg viewBox="0 0 24 24">
-<path d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8z"/>
-</svg>
+<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tether.svg"
+style="filter:invert(1);">
 
 </div>
 
 <div class="card-details">
+
 <div class="main-title">
 Support via Crypto (TRC20)
 <span class="badge">TOP</span>
@@ -322,6 +334,7 @@ Support via Crypto (TRC20)
 <div class="sub-title" id="crypto-addr">
 TDLShVWmJzgyR26KiYD2ZaCWnuh7hCoHdV
 </div>
+
 </div>
 
 <svg class="arrow" viewBox="0 0 24 24">
@@ -330,17 +343,21 @@ TDLShVWmJzgyR26KiYD2ZaCWnuh7hCoHdV
 
 </div>
 
-<!-- Binance -->
+<!-- BINANCE -->
 
-<a href="https://s.binance.com/emgxQYEd" target="_blank" class="card card-binance">
+<a href="https://s.binance.com/emgxQYEd"
+target="_blank"
+class="card card-binance">
 
 <div class="icon-box bg-binance">
-<svg viewBox="0 0 24 24">
-<path d="M12 0l3.18 3.18L12 6.36 8.82 3.18 12 0z"/>
-</svg>
+
+<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/binance.svg"
+style="filter:brightness(0);">
+
 </div>
 
 <div class="card-details">
+
 <div class="main-title">
 Donate via Binance Pay ⚡
 </div>
@@ -348,6 +365,7 @@ Donate via Binance Pay ⚡
 <div class="sub-title">
 Instant • Secure • Low Fees
 </div>
+
 </div>
 
 <svg class="arrow" viewBox="0 0 24 24">
@@ -356,19 +374,20 @@ Instant • Secure • Low Fees
 
 </a>
 
-<!-- Payoneer -->
+<!-- PAYONEER -->
 
-<a href="https://link.payoneer.com/Token?t=5F42337B3E8F40C39BD4F02E08EB1BDB&src=mobile" target="_blank" class="card card-payoneer">
+<a href="https://link.payoneer.com/Token?t=5F42337B3E8F40C39BD4F02E08EB1BDB&src=mobile"
+target="_blank"
+class="card card-payoneer">
 
 <div class="icon-box bg-payoneer">
 
-<svg viewBox="0 0 44 44">
-<path d="M22 0C9.8 0 0 9.8 0 22s9.8 22 22 22 22-9.8 22-22S34.2 0 22 0z" fill="#ff4800"/>
-</svg>
+<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/payoneer.svg">
 
 </div>
 
 <div class="card-details">
+
 <div class="main-title">
 Support via Payoneer
 </div>
@@ -376,6 +395,7 @@ Support via Payoneer
 <div class="sub-title">
 Fast & Secure International Payment
 </div>
+
 </div>
 
 <svg class="arrow" viewBox="0 0 24 24">
@@ -384,26 +404,36 @@ Fast & Secure International Payment
 
 </a>
 
-<!-- Free Support -->
+<!-- FREE SUPPORT -->
 
-<a href="https://sfl.gl/ygPldz4" target="_blank" class="card card-ads">
+<a href="https://sfl.gl/ygPldz4"
+target="_blank"
+class="card card-ads">
 
 <div class="icon-box bg-ads">
 
-<svg viewBox="0 0 24 24">
-<path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5z"/>
+<svg xmlns="http://www.w3.org/2000/svg"
+width="24"
+height="24"
+fill="white"
+viewBox="0 0 24 24">
+
+<path d="M12 5c-7.633 0-11.617 6.617-11.783 6.898a1 1 0 0 0 0 1.004C.383 13.383 4.367 20 12 20s11.617-6.617 11.783-6.898a1 1 0 0 0 0-1.004C23.617 11.617 19.633 5 12 5zm0 13c-5.351 0-8.74-4.476-9.721-6C3.26 10.476 6.649 6 12 6s8.74 4.476 9.721 6C20.74 13.524 17.351 18 12 18zm0-10a4 4 0 1 0 4 4 4 4 0 0 0-4-4zm0 6a2 2 0 1 1 2-2 2 2 0 0 1-2 2z"/>
+
 </svg>
 
 </div>
 
 <div class="card-details">
+
 <div class="main-title">
-Free Support (Watch Ads) 🎆
+Free Support (Watch Ads) 👁️
 </div>
 
 <div class="sub-title">
 Support for free by viewing ads
 </div>
+
 </div>
 
 <svg class="arrow" viewBox="0 0 24 24">
@@ -414,57 +444,68 @@ Support for free by viewing ads
 
 </div>
 
+<!-- FOOTER -->
+
 <div class="footer">
 Thanks for being part of this community 🙏
 </div>
 
-<!-- Socials -->
+<!-- SOCIALS -->
 
 <div class="socials">
 
-<a href="https://youtube.com/@gtamoddingcommuniity?si=6gCmn2HaJsiymXBR" target="_blank" class="social-link social-youtube">
+<!-- YOUTUBE -->
 
-<svg viewBox="0 0 24 24">
-<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z"/>
-</svg>
+<a href="https://youtube.com/@gtamoddingcommuniity?si=6gCmn2HaJsiymXBR"
+target="_blank"
+class="social-link social-youtube">
 
-</a>
-
-<a href="https://t.me/GtaModdingCommunnity" target="_blank" class="social-link social-telegram">
-
-<svg viewBox="0 0 24 24">
-<path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0z"/>
-</svg>
+<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg">
 
 </a>
 
-<a href="https://wa.me/923102656635" target="_blank" class="social-link social-whatsapp">
+<!-- TELEGRAM -->
 
-<svg viewBox="0 0 24 24">
-<path d="M.057 24l1.687-6.163C.703 16.033.156 13.988.157 11.891.16 5.348 5.397.01 12.008.01z"/>
-</svg>
+<a href="https://t.me/GtaModdingCommunnity"
+target="_blank"
+class="social-link social-telegram">
+
+<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg">
 
 </a>
 
-<a href="mailto:aamirh258@gmail.com" class="social-link social-email">
+<!-- WHATSAPP -->
 
-<svg viewBox="0 0 24 24">
-<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6z"/>
-</svg>
+<a href="https://wa.me/923102656635"
+target="_blank"
+class="social-link social-whatsapp">
+
+<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg">
+
+</a>
+
+<!-- EMAIL -->
+
+<a href="mailto:aamirh258@gmail.com"
+class="social-link social-email">
+
+<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg">
 
 </a>
 
 </div>
 
 </div>
+
+<!-- SCRIPT -->
 
 <script>
 
 function copyCryptoAddress(){
 
-var text=document.getElementById("crypto-addr").innerText;
+var address=document.getElementById("crypto-addr").innerText;
 
-navigator.clipboard.writeText(text).then(function(){
+navigator.clipboard.writeText(address).then(function(){
 
 var toast=document.getElementById("copy-toast");
 
